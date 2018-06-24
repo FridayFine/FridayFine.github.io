@@ -2,3 +2,35 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @import "jekyll-theme-prologue";
+p{
+    font-size: 16px;
+    line-height: 24px;
+}
+h1, h2, h3 {
+    letter-spacing: 0px;
+}
+h1{
+    font-size: 32px;
+    line-height: 62px;
+}
+h2{
+    font-size: 28px;
+    line-height: 58px;
+}
+h3{
+    font-size: 24px;
+    line-height: 54px;
+}
+
+table {
+    font-size: 16px;
+}
+table.showline td{
+    border: 1px solid;
+}
+table.bg-none tr:nth-child(2n+2) {
+    background: none;
+}
+.vertical-mid{
+    vertical-align: middle;
+}
