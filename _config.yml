@@ -7,7 +7,7 @@ title: 风中的纸屑
 subtitle:
 description:
 keywords:
-author: FridaySun
+author: FridayFine
 language:
 timezone:
 
@@ -79,7 +79,7 @@ theme: hexo-theme-yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/FridaySun92/FridaySun92.github.io.git
+  repo: https://github.com/FridayFine/FridayFine.github.io.git
   branch: master
 
 # jsonContent
