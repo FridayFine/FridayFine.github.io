@@ -5,7 +5,7 @@ tags: css
 ---
 
 参考《CSS世界》一书，本文将总结前端开发中遇到的一些单位（相对单位和绝对单位），有待进一步扩充。
-
+<!-- more -->
 <table class="showline bg-none">
 <tr>
     <td rowspan="7" class="vertical-mid"> 长度单位 </td>
@@ -33,7 +33,6 @@ tags: css
 <tr>
     <td> 绝对长度单位 </td>
     <td colspan="2"> px, pt, cm, mm, pc</td>
-    
 </tr>
 </table>
 

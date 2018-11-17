@@ -5,7 +5,7 @@ tags: html
 ---
 
 本文总结了基于盒模型的元素尺寸的获取方法:总结了四种情况下(content, content+padding, content+padding+boder, content+padding+border+margin)盒子尺寸的原生JS和jQuery获取方式。
-
+<!-- more -->
 <span>
    {% asset_img border-model.jpg %}
 </span>
