@@ -5,36 +5,40 @@ tags: css
 ---
 
 参考《CSS世界》一书，本文将总结前端开发中遇到的一些单位（相对单位和绝对单位），有待进一步扩充。
+
 <!-- more -->
+
+{% raw %}
 <table class="showline bg-none">
-<tr>
-    <td rowspan="7" class="vertical-mid"> 长度单位 </td>
-    <td rowspan="6" class="vertical-mid"> 相对长度单位 </td>
-    <td rowspan="4" class="vertical-mid"> 相对字体长度单位 </td>
-    <td> ex: 小写字母x的高度 </td>
-</tr>
-<tr>
-    <td> em: '中'等汉字的高度，相对自己</td>
-</tr>
-<tr>
-    <td> rem(CSS3单位): 相对根元素</td>
-</tr>
-<tr>
-    <td> ch(CSS3单位): 阿拉伯数字0的宽度</td>
-</tr>
-<tr>
-    <td> 相对视区长度单位：</td>
-    <td> vh, vm, vmin, vmax</td>
-</tr>
-<tr>
-    <td> 其它相对长度单位： </td>
-    <td> rpx </td>
-</tr>
-<tr>
-    <td> 绝对长度单位 </td>
-    <td colspan="2"> px, pt, cm, mm, pc</td>
-</tr>
+    <tr>
+        <td rowspan="7" class="vertical-mid"> 长度单位 </td>
+        <td rowspan="6" class="vertical-mid"> 相对长度单位 </td>
+        <td rowspan="4" class="vertical-mid"> 相对字体长度单位 </td>
+        <td> ex: 小写字母x的高度 </td>
+    </tr>
+    <tr>
+        <td> em: '中'等汉字的高度，相对自己</td>
+    </tr>
+    <tr>
+        <td> rem(CSS3单位): 相对根元素</td>
+    </tr>
+    <tr>
+        <td> ch(CSS3单位): 阿拉伯数字0的宽度</td>
+    </tr>
+    <tr>
+        <td> 相对视区长度单位：</td>
+        <td> vh, vm, vmin, vmax</td>
+    </tr>
+    <tr>
+        <td> 其它相对长度单位： </td>
+        <td> rpx </td>
+    </tr>
+    <tr>
+        <td> 绝对长度单位 </td>
+        <td colspan="2"> px, pt, cm, mm, pc</td>
+    </tr>
 </table>
+{% endraw %}
 
 ## 1em, 1ch
 1em：当前一个font-size的大小，即：当前元素中，如果有汉字时，汉字的高度<br/>
