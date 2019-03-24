@@ -5,7 +5,7 @@
 [hexo官方文档](https://hexo.io/zh-cn/)
 
 
-## 引入vuep，在边编辑边预览
+## 引入vuep，实现边编辑边预览
 
 目前使用到的模板是`hexo-theme-yilia`, 在该模板的基础上引入`vuep`，使得在页面上可以边编辑，边预览效果
 
