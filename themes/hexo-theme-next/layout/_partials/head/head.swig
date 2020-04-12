@@ -58,4 +58,7 @@
   <script src="{{ pace_js_uri }}"></script>
 {%- endif %}
 
+{# 【vuep】引入相关css #}
+<link rel="stylesheet" type="text/css" href="/vuep-css/vuep.css">
+
 {{ next_config() }}

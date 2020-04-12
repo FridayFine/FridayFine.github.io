@@ -58,4 +58,14 @@
   </div>
 {%- endif %}
 
+{# 【vuep】引入相关js，挂载于#post-body节点 #}
+<script src="/vuep-js/babel.min.js"></script>
+<script src="/vuep-js/vue.min.js"></script>
+<script src="/vuep-js/vuep.min.js"></script>
+<script>
+  new Vue({
+      el: '#post-body'
+  })
+</script>
+
 {{- next_inject('footer') }}

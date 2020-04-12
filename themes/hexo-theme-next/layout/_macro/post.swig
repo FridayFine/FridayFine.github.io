@@ -165,7 +165,8 @@
     {#################}
     {### POST BODY ###}
     {#################}
-    <div class="post-body{%- if post.direction and post.direction.toLowerCase() === 'rtl' %} rtl{%- endif %}" itemprop="articleBody">
+    {# 【vuep】为文章主题添加id="post-body", 以便引入vuep #}
+    <div id="post-body" class="post-body{%- if post.direction and post.direction.toLowerCase() === 'rtl' %} rtl{%- endif %}" itemprop="articleBody">
 
       {# Gallery support #}
       {%- if post.photos and post.photos.length %}
