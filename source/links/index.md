@@ -7,9 +7,7 @@ type: "links"
 # 技术博客
 
 [张鑫旭的个人博客](https://www.zhangxinxu.com)
-
 [阮一峰](http://www.ruanyifeng.com/home.html)
-
 
 
 # 博客工具
@@ -17,3 +15,20 @@ type: "links"
 [NEXT主题配置](http://theme-next.iissnan.com)
 
 # markdown
+
+
+# 在线Coding
+
+[jsbin](https://jsbin.com/)
+[codepen](https://codepen.io/)
+
+# CDN库
+
+从CDN库中，可以找到相应资源的cdn文件，直接在`<script>`中引用即可
+
+[【总】推荐13个常用前端公共库CDN服务资源](https://cloud.tencent.com/developer/article/1355006)
+
+[CDNJS](https://cdnjs.com)
+[CDNJS.net](https://cdnjs.net/)
+[BootCDN](https://www.bootcdn.cn/)
+[七牛云存储](http://www.staticfile.org/)
