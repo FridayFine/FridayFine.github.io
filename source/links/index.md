@@ -32,3 +32,13 @@ type: "links"
 [CDNJS.net](https://cdnjs.net/)
 [BootCDN](https://www.bootcdn.cn/)
 [七牛云存储](http://www.staticfile.org/)
+
+
+# 其他小工具
+
+[检验网站有没有开启gzip压缩](http://tool.chinaz.com/Gzips/Default.aspx?q=juejin.im)
+
+[Bug监控工具Fundebug](https://www.fundebug.com/)
+
+[js性能测试jsperf](https://jsperf.com)
+
